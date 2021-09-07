@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /new_chatapp/fundoo/fundooapp/templates/index.html
+    destination: /new_chatapp/fundoo
 hooks: 
   BeforeInstall:
     - location: /scripts/install_dependencies.sh
